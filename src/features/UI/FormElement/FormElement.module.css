@@ -1,0 +1,11 @@
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-element__span {
+  font-weight: 700;
+  color: var(--color-total-background);
+  font-size: 0.833rem;
+}

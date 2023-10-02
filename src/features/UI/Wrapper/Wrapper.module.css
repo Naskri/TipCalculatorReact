@@ -1,0 +1,11 @@
+.wrapper {
+  --width: 50rem;
+  max-width: var(--width);
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 40rem) {
+  .wrapper {
+    --width: 30rem;
+  }
+}

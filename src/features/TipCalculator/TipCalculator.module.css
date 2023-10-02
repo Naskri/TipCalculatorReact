@@ -1,0 +1,23 @@
+.tip-calculator {
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 17px;
+  background-color: var(--color-neutral);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+@media (max-width: 40rem) {
+  .tip-calculator {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 25rem) {
+  .tip-calculator {
+    padding: 1rem;
+  }
+}

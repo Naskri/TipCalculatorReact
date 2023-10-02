@@ -4,6 +4,7 @@
   --color-neutral: hsl(0, 0%, 100%);
   --color-background: hsl(185, 41%, 84%);
   --color-input-background: hsl(189, 41%, 97%);
+  --color-reset-button: hsl(186, 14%, 43%);
 }
 
 *,

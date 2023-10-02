@@ -1,0 +1,28 @@
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.total__typography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.total__title {
+  font-size: 1rem;
+  color: var(--color-neutral);
+}
+
+.total__per {
+  font-size: 0.833rem;
+  color: var(--color-primary);
+}
+
+.total__value {
+  color: var(--color-primary);
+  font-size: 2rem;
+}

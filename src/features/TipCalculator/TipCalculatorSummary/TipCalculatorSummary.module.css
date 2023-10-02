@@ -1,0 +1,9 @@
+.summary {
+  background-color: var(--color-total-background);
+  padding: 1.5rem;
+  border-radius: 17px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

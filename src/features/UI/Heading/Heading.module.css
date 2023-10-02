@@ -1,0 +1,12 @@
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--color-total-background);
+  letter-spacing: 5px;
+  line-height: 1.2;
+}
+
+.heading__span {
+  display: block;
+}

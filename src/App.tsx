@@ -1,3 +1,5 @@
+import { Root } from "./pages/Root/Root";
+
 export const App = () => {
-  return <h1>Hi!</h1>;
+  return <Root />;
 };
