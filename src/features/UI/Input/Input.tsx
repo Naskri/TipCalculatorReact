@@ -8,6 +8,8 @@ type InputProps = {
   id: string;
   type: InputType;
   name: string;
+  max?: string;
+  min?: string;
   value?: string;
   placeholder?: string;
   iconPath?: string;
@@ -41,8 +43,6 @@ export const Input = ({
         id={id}
         onChange={onChange}
         value={value}
-        max={30}
-        min={1}
         {...rest}
       />
       {modifier === "tip" && (

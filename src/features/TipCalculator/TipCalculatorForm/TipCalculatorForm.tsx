@@ -45,8 +45,8 @@ export const TipCalculatorForm = ({
             placeholder="Custom"
             type="number"
             modifier="custom"
-            min={1}
-            max={30}
+            min="1"
+            max="30"
             onChange={handleChange}
           />
         </Tips>
