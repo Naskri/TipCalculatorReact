@@ -26,6 +26,36 @@
   padding-right: 0;
 }
 
+.custom__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 100%;
+  background-color: var(--color-total-background);
+  color: var(--color-neutral);
+  border-radius: 4px;
+  font-size: 1.125rem;
+  transition: 0.3s;
+}
+
+.custom__label:hover {
+  background-color: var(--color-primary);
+}
+
+.input-container__input--tip:focus + .custom__label {
+  background-color: var(--color-primary);
+}
+
+.input-container__input--tip {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
 .input-container__icon {
   position: absolute;
   top: 50%;
